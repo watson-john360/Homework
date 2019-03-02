@@ -1,0 +1,68 @@
+<!--XML Layout for curriculum -->
+
+<curriculum>
+  <maintopic name="" id="10">
+      <minortopic name="" id="10">
+          <subtopic name ="" id="10">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="20">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="30">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="40">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="50">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="60">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="70">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="80">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="90">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+      </minortopic>
+    </maintopic>
+    
+    <maintopic name="" id="20">
+      <minortopic name="" id="10">
+        <subtopic name ="" id="10">
+            <lesson name="" id="10" type=""></lesson>
+            <lesson name="" id="20" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="20">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="30">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="40">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="50">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="60">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="70">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="80">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+        <subtopic name ="" id="90">
+            <lesson name="" id="10" type=""></lesson>
+        </subtopic>
+      </minortopic>
+    </maintopic>
+</curriculum>

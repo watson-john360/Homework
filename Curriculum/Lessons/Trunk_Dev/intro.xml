@@ -1,0 +1,5 @@
+<lesson>
+    <title name="" id="">Intro to Trunk Based Development</title>
+    <content name="" id="">Trunk Based Development is a method of source-control that focuses on continually releasing to the trunk of a code respository instead of long-lived branches. Developers are trusted to commit directly to the trunk, with code review and unit tests typically being utilized to eliminate build-breaking merges before they happen. </content>
+    <content name="" id="">The goal of Trunk Based Development is to avoid long lasting and large branches that are difficult to merge (prone to merge conflicts) and often cause build breaks. Instead, short lived branches are committed quickly to the trunk after going through code review processes (typically including unit testing on the local developer machine pre-commit), keeping potential issues smaller in scope, logical to track, and easy to fix or revert.</content>
+</lesson>

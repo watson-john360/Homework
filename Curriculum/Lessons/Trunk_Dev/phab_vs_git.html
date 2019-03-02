@@ -1,0 +1,62 @@
+<html lang="eng">
+<title>Watson Uber Homework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Layout/w3.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Topics:</h3>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">ATG Development Process</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="trunk_intro.html" class="w3-bar-item w3-button">Intro to Trunk Based Development</a>
+            <a href="trunk_pros_cons.html" class="w3-bar-item w3-button">Pros and Cons of TBD</a>
+            <a href="phab_overview.html" class="w3-bar-item w3-button">Phabricator</a>
+            <a href="phab_vs_git.html" class="w3-bar-item w3-button">Pabricator vs. Gitflow</a>
+            <a href="phab_land_code.html" class="w3-bar-item w3-button">Landing code with Phabricator</a>
+        </div>
+        </div>
+    </div>
+    
+    <div style="margin-left:25%">
+        <div class="w3-container w3-teal"><h1>Gitflow and Phabricator</h1></div>
+        <div class="w3-container">
+            <p>Phabricator utilizes a different workflow from Gitflow, as Phabricator is designed specifically for <a href="trunk_intro.html">Trunk Based Development</a>.</p>
+            
+        <h2>Gitflow</h2>
+            <p>The <a href="https://guides.github.com/introduction/flow/">Gitflow</a> process puts all code changes in separate branches, which are then reviewed upon request and merged once the feature is fully completed. While it appears to be similar to trunk based development, branch-based development must flow through a single reviewer (or group of reviewers) before the code is committed to the trunk. Branches are usually larger in scope and longer in duration, as compared to trunk-based development.</p>
+            
+            <table>
+                <tr>
+                    <td>Branch</td> 
+                    <td>Add commits</td>
+                    <td>Pull request</td>
+                    <td>Review</td>
+                    <td>Deploy</td>
+                    <td>Merge</td>
+                </tr>
+            </table>
+
+<p>The <b>advantage</b> of Gitflow is that code quality is strictly controlled by smaller group(s) in charge of reviewing and approving the commit requests. While this can be especially helpful for open-source projects and projects where developer trust and code quality are concerns, the <b>downside</b> is that the reviewers can easily become a choke-point in the development process. Further slowdowns can occur when multiple larger commits are merged at the same time, which can easily cause merge conflicts.</p>
+
+            <h2>Phabricator</h2>
+            <p>The <a href="https://secure.phabricator.com/phame/post/view/766/write_review_merge_publish_phabricator_review_workflow/">Phabricator</a> workflow puts code in a review state before it is merged; <b>code cannot be merged until it has been reviewed</b>. The need for reversions is minimized as code is reviewed/revised as it is being developed, helping keep the trunk clean and allowing for greater control over the merges to the trunk. Most importantly, <b>issues are kept non-blocking</b> when they are caught and fixed in the review stage. </p>
+            
+            <table>
+                <tr>
+                    <td>Write</td> 
+                    <td>Review</td>
+                    <td>Merge</td>
+                    <td>Publish</td>
+                </tr>
+            </table>
+            <p>As Uber ATG is not open source, trusts their developers, and requires a quick, continual integration and testing of code, the Phabricator workflow to allow for faster code deployment while mitigating the risks of Trunk Based Development. </p>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>
