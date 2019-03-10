@@ -24,7 +24,27 @@
     <div style="margin-left:25%">
         <div class="w3-container w3-teal"><h1>Landing Code using Phabricator</h1></div>
         <div class="w3-container">
-            <p>Currently in progress: check back later!</p>
+            <p>There are two main ways of landing code through Phabricator; using the command line arcanist API, and via the web-based GUI. When using arcanist command line scripts, there are several commands that behave similarly to standard git commands (modified for the Phabricator pipeline).</p>
+            
+            <ul>
+                <li><b>arc diff</b> send your code for review, testing ling and unit first.</li>
+                <li><b>arc patch</b> applies changes in a revision to the working copy.</li>
+                <li><b>arc land</b> push changes to the server.</li>
+                <li><b>arc lint</b> checks code for syntax and style errors.</li>
+                <li><b>arc unit</b> runs unit tests on your changes.</li>
+            </ul>
+            
+            <p>The full listing of Arcanist API commands can be found in the <a href="https://secure.phabricator.com/book/phabricator/article/arcanist/">arcanist users' guide.</a></p>
+            
+            
+          <p>&nbsp;&nbsp;</p>
+          <textarea id = "Comments"
+                  rows = "3"
+                  cols = "40">Add any comments, changes, or suggestions for this page here!</textarea>
+           <form>
+               <input type="submit">
+               <input type="reset">
+            </form>   
         </div>
     </div>
     
