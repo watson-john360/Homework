@@ -1,3 +1,3 @@
 # Homework
 
-John Watson's homework for the Uber ATG Technical Educator role. If you are not from Uber ATG, how did you get access to this?
+John Watson's homework. If you are not from Uber ATG, this doesn't apply to you at all :)
